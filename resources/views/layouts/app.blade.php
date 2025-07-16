@@ -34,6 +34,9 @@
                             <router-link class="nav-link" :to="{ name: 'home' }">Home</router-link>
                         </li>
                         <li class="nav-item">
+                            <router-link class="nav-link" :to="{ name: 'dashboard' }">Dashboard</router-link>
+                        </li>
+                        <li class="nav-item">
                             <router-link class="nav-link" :to="{ name: 'keluhan_pelanggan' }">Keluhan Pelanggan</router-link>
                         </li>
                     </ul>
